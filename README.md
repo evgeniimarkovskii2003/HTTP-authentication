@@ -81,22 +81,22 @@
 <br>Pragma: no-cache
 <br>Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1
 
-<br>GET /lr_1/login.php HTTP/1.1
+<br>GET /lr_1/index.php HTTP/1.1
 <br>Host: localhost
 <br>Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
-<br>sec-ch-ua: "Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"
+<br>"Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
 <br>sec-ch-ua-mobile: ?0
 <br>sec-ch-ua-platform: "Windows"
 <br>Upgrade-Insecure-Requests: 1
-<br>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+<br>User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 
-<br>HTTP/1.1 200 OK
-<br>Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+<br>HTTP/1.1 302 Found
+<br>Cache-Control: no-store, no-cache, must-revalidate
 <br>Connection: Keep-Alive
-<br>Content-Length: 696
+<br>Content-Length: 318
 <br>Content-Type: text/html; charset=UTF-8
-<br>Date: Thu, 27 Oct 2022 07:49:32 GMT
+<br>Date: Thu, 22 Dec 2022 23:29:50 GMT
 <br>Expires: Thu, 19 Nov 1981 08:52:00 GMT
-<br>Keep-Alive: timeout=10, max=97
+<br>Keep-Alive: timeout=5, max=99
 <br>Pragma: no-cache
-<br>Server: Apache
+<br>Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1
