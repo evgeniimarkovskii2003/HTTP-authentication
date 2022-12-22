@@ -24,8 +24,8 @@
 
 3) Структура БД
 
-| id | login | email | password | secret_word |
-| ------ | ------ | ------ | ------ | ------ |
+| id | full_name | login | email | password | avatar | SALT | secret_word |
+| ------ | ------ | ------ | ------ | ------ | | ------ | | ------ | | ------ |
 
 - id : INT(11), PRIMARY KEY, AUTO_INCREMENT
 (уникальный идентификатор пользователя)
