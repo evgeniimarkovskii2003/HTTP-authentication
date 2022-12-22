@@ -22,21 +22,19 @@
 2) API сервера и хореография\
 ![lr_1](хореография.png)
 
-3) Структура БД
+### 3) Структура БД
 
 | id | full_name | login | email | password | avatar | SALT | secret_word |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 
-- id : INT(11), PRIMARY KEY, AUTO_INCREMENT
-(уникальный идентификатор пользователя)
-- login : VARCHAR(250), по умолчанию NULL
-(логин)
-- email: VARCHAR(255), по умолчанию NULL
-(почта)
-pass: VARCHAR(500), по умолчанию NULL
-(хешированный пароль)
-- secret_word: VARCHAR(255), по умолчанию NULL
-(хешированное секретное слово для восстановления пароля)
+- id : INT(11), PRIMARY KEY, AUTO_INCREMENT (уникальный идентификатор пользователя)
+- full_name : VARCHAR(355), по умолчанию NULL 
+- login: VARCHAR(100), по умолчанию NULL 
+- email: VARCHAR(255), по умолчанию NULL 
+- password: VARCHAR(500), по умолчанию NULL 
+- avatar: VARCHAR(500), по умолчанию NULL 
+- SALT: VARCHAR(500), по умолчанию NULL 
+- secret_word: VARCHAR(500), по умолчанию NULL 
 
 4) Алгоритмы
 
